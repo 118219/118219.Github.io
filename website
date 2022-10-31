@@ -1,9 +1,0 @@
-<html> 
-<head> 
-        <title>Mijn eerste website</<title>
-</head>
-        
-<body>
-        <h1> Mijn eerste website <h1> 
-        <h1>Website menu</<h1>
-            <p>Ga door naar mijn <a href="menu.html">teede</a> pagina</p> 
