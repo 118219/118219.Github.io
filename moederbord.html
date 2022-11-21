@@ -1,13 +1,48 @@
-<html>
-<head>
-<title><b>Moederbord</b></title>
-</head>
+<!doctype html>
+<title>Informatica Website</title>
+<style>
+  * {
+    box-sizing: border-box; 
+  }
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+  }
+  #main {
+    display: flex;
+    flex: 1;
+  }
+  #main > article {
+    flex: 1;
+    order: 1;
+  }
+  #main > nav, 
+  #main > aside {
+    flex: 0 0 20vw;
+  }
+  #main > nav {
+    background: #D7E8D4;
+    order: 3;
+  }
+  #main > aside {
+    background: powderblue;
+    order: 2;
+  }
+  header, footer {
+    background: darkslateblue;
+    height: 20vh;
+  }
+  header, footer, article, nav, aside {
+    padding: 1em;
+  }
+</style>
 <body>
-
-<h2>Het moederbord </h2>
- <p>Het moederbord is een printplaat met daarop elektronica waar andere printplaten op kunnen worden gemonteerd.
-  Op dit moederbord is de processorvoet, de plaats voor et intern geheugen, meerdere aansluitingen en connectors voor aansluitingen met randapparatuur. </p>
- <p><img src="./atx_moederbord.gif"></p>
+  <header>Moederbord</header>
+  <div id="main">
+   <article>  <p><h2> Het moederbord in cijfers </h2></p>
+     <p><img src="./atx_moederbord.gif"></p>
 <p>1. De voet waarin de processor geplaatst kan worden (socket voor de Pentium 4)<br>
 2. Houder voor de ventilator. De ventilator blaast over de processor.<br>
 3. North bridge, die regelt het verkeer tussen processor en intern geheugen + videokaart over de bussen.<br>
@@ -23,7 +58,18 @@
 13. Com-poort.<br>
 14. WiFI connector.<br>
 15. USB.<br>
-16. Gamepoort. </p>
-
+16. Gamepoort. </p> </article>
+    <nav>
+     <h3>Pagina´s<h3>
+     <li><a href="index.html">Eerste pagina</a></li>
+   <li><a href="3 Lagenmodel.html">3 lagenmodel</a></li>
+     <li><a href="moederbord.html">Moederbord</a></li>
+     <li><a href="besturingssysteem.html">Besturingssysteem</a></li>
+     <li><a href="processor en geheugen.html">Processor</a></li>
+   </nav>
+    <aside> <h2>Het moederbord </h2>
+ <p>Het moederbord is een printplaat met daarop elektronica waar andere printplaten op kunnen worden gemonteerd.
+  Op dit moederbord is de processorvoet, de plaats voor et intern geheugen, meerdere aansluitingen en connectors voor aansluitingen met randapparatuur. </p></aside>
+  </div>
+  <footer>We hopen dat u het mooi vindt</footer>
 </body>
-</html>
