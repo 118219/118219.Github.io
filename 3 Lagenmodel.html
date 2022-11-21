@@ -1,12 +1,49 @@
-<html>
-<head>
-<title><b>3 Lagenmodel</b></title>
-</head>
+<!doctype html>
+<title>Informatica Website</title>
+<style>
+  * {
+    box-sizing: border-box; 
+  }
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+  }
+  #main {
+    display: flex;
+    flex: 1;
+  }
+  #main > article {
+    flex: 1;
+    order: 1;
+  }
+  #main > nav, 
+  #main > aside {
+    flex: 0 0 20vw;
+  }
+  #main > nav {
+    background: #D7E8D4;
+    order: 3;
+  }
+  #main > aside {
+    background: red;
+    order: 2;
+  }
+  header, footer {
+    background: powderblue;
+    height: 20vh;
+  }
+  header, footer, article, nav, aside {
+    padding: 1em;
+  }
+</style>
 <body>
-
-<h2> </h2>
- <p>Het 3 lagenmodel betstaat uit; de fysieke laag, de logische laag en de toepassingen laag. </p>
- <p> </p>
-
+  <header>Informatica Website</header>
+  <div id="main">
+    <article></article>
+    <nav>Nav</nav>
+    <aside>Aside</aside>
+  </div>
+  <footer>Footer</footer>
 </body>
-</html>
