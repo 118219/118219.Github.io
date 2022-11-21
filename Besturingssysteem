@@ -1,1 +1,60 @@
-
+<!doctype html>
+<title>Informatica Website</title>
+<style>
+  * {
+    box-sizing: border-box; 
+  }
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+  }
+  #main {
+    display: flex;
+    flex: 1;
+  }
+  #main > article {
+    flex: 1;
+    order: 1;
+  }
+  #main > nav, 
+  #main > aside {
+    flex: 0 0 20vw;
+  }
+  #main > nav {
+    background: #D7E8D4;
+    order: 3;
+  }
+  #main > aside {
+    background: powderblue;
+    order: 2;
+  }
+  header, footer {
+    background: darkslateblue;
+    height: 20vh;
+  }
+  header, footer, article, nav, aside {
+    padding: 1em;
+  }
+</style>
+<body>
+  <header>Besturingssysteem</header>
+  <div id="main">
+    <article>Een besturingssysteem is de software die bij het opstarten van een apparaat wordt geladen en de hardware aanstuurt.
+   Een besturingssysteem bestaat uit een programma ,meestal een geheel van samenwerkende programma's, dat na het opstarten van een computer in het geheugen geladen wordt en de hardware aanstuurt. 
+   Het fungeert als medium tussen de hardware en de computergebruiker, met als opzet dat de gebruiker programma's op een gemakkelijke en efficiënte manier kan uitvoeren. Veelvoorkomende besturingssystemen zijn Unix, Microsoft Windows, Apple macOS, Linux, Apple iOS en Android. 
+   Een besturingssysteem wordt ook wel is 'OS' genoemd (Operating System) 
+   Een besturingssysteem zorgt ervoor dat een systeem kan opstarten zodat je ermee kunt werken en communiceren. Het besturingssysteem is dus in feite de schakel tussen het apparaat en de gebruiker.</article>
+    <nav>
+     <h3>Pagina´s<h3>
+     <li><a href="index.html">Eerste pagina</a></li>
+   <li><a href="3 Lagenmodel.html">3 lagenmodel</a></li>
+     <li><a href="moederbord.html">Moederbord</a></li>
+     <li><a href="besturingssysteem.html">Besturingssysteem</a></li>
+     <li><a href="processor en geheugen.html">Processor</a></li>
+   </nav>
+    <aside>Site van Demi en Stijn</aside>
+  </div>
+  <footer>We hopen dat u het mooi vindt</footer>
+</body>
